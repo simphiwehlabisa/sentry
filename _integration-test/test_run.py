@@ -19,7 +19,7 @@ from cryptography.hazmat.primitives.asymmetric import rsa
 from cryptography.x509.oid import NameOID
 
 SENTRY_CONFIG_PY = "sentry/sentry.conf.py"
-SENTRY_TEST_HOST = os.getenv("SENTRY_TEST_HOST", "http://localhost:9000")
+SENTRY_TEST_HOST = os.getenv("SENTRY_TEST_HOST", "http://localhost:10111")
 TEST_USER = "test@example.com"
 TEST_PASS = "test123TEST"
 TIMEOUT_SECONDS = 60

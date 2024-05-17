@@ -202,7 +202,7 @@ SENTRY_RELEASE_MONITOR = (
 ##############
 
 SENTRY_WEB_HOST = "0.0.0.0"
-SENTRY_WEB_PORT = 9000
+SENTRY_WEB_PORT = 10111
 SENTRY_WEB_OPTIONS = {
     "http": "%s:%s" % (SENTRY_WEB_HOST, SENTRY_WEB_PORT),
     "protocol": "uwsgi",
@@ -360,4 +360,4 @@ CSP_REPORT_ONLY = True
 # this to match your IPs/domains. Ports should be included if you are using custom ports.
 # https://docs.djangoproject.com/en/4.2/ref/settings/#std-setting-CSRF_TRUSTED_ORIGINS
 
-# CSRF_TRUSTED_ORIGINS = ["https://example.com", "http://127.0.0.1:9000"]
+# CSRF_TRUSTED_ORIGINS = ["https://example.com", "http://127.0.0.1:10111"]

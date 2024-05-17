@@ -80,7 +80,7 @@ releasefile.cache-path: '/data/releasefile-cache'
 
 # The URL prefix in which Sentry is accessible
 # system.url-prefix: https://example.sentry.com
-system.internal-url-prefix: 'http://web:9000'
+system.internal-url-prefix: 'http://web:10111'
 symbolicator.enabled: true
 symbolicator.options:
   url: "http://symbolicator:3021"
